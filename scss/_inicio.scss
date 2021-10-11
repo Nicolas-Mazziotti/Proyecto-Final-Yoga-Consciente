@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import "./variables";
+@import "./mixins";
+
+/* PLACEHOLDER*/
+%center{ 
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAVBAR*/
+.menu{
+        background-color:rgb(214, 171, 179);
+            .itemsNavegacion{
+                font-size: $fuenteNav;
+                font-family:'Poppins';
+                width: 70%;
+                justify-content: space-around;
+                /* OPERACION Y MIXIN*/
+                @include tablet {
+                font-size: $fuenteNav - 5;
+            }
+                    li a:hover{
+                        text-decoration: underline;
+
+            }
+    }
+}
+
+/*CAROUSEL*/
+#seccion__container__carousel{
+    min-width: 100%;
+    height: auto;
+    background-color:$rosa;
+    font-family: 'Poppins';
+        #seccion__container__parrafo{
+            h1{
+                font-size: 30px;
+        }
+            h2{
+                font-size: 20px;
+        }
+            p{
+                font-size: 15px ;
+                @include laptop{
+                    font-size: 12px;
+                }
+        }
+                .boton__hero button{
+                    background-color: black;
+                    border-radius: 5px;
+                    border-color:black;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                        a:hover{
+                            color: $rosa;
+                    }
+                }
+            }
+        }
+
+
+      
+/*CARDS*/
+ #container__cards{
+     /*Aplicando Placeholder*/
+     background-image: url(/imagenes/backgroundmain2.jpg);
+     padding: 3rem;
+     font-family: 'Poppins';
+ }
+
+ /*SECCION VIDEO*/
+ .video__main{
+     background-color: $rosa;
+     font-family: 'Poppins';
+ }
+
+.footer{
+    background-color: rgb(214, 171, 179);
+    min-width: 100%;
+    font-family: 'Poppins';
+        &__copyright{
+            align-items: center;
+            padding-top: 0.5rem;
+            p{
+                font-weight: bold;
+                font-size: 12px;
+            }
+        }
+
+        
+    }
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+        
+
+
+
+

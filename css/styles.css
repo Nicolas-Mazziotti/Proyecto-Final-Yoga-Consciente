@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* PLACEHOLDER*/
+/* NAVBAR*/
+.menu {
+  background-color: #d6abb3;
+}
+
+.menu .itemsNavegacion {
+  font-size: 25px;
+  font-family: 'Poppins';
+  width: 70%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* OPERACION Y MIXIN*/
+}
+
+@media screen and (max-width: 768px) {
+  .menu .itemsNavegacion {
+    font-size: 20px;
+  }
+}
+
+.menu .itemsNavegacion li a:hover {
+  text-decoration: underline;
+}
+
+/*CAROUSEL*/
+#seccion__container__carousel {
+  min-width: 100%;
+  height: auto;
+  background-color: #f0d0d5;
+  font-family: 'Poppins';
+}
+
+#seccion__container__carousel #seccion__container__parrafo h1 {
+  font-size: 30px;
+}
+
+#seccion__container__carousel #seccion__container__parrafo h2 {
+  font-size: 20px;
+}
+
+#seccion__container__carousel #seccion__container__parrafo p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 813px) {
+  #seccion__container__carousel #seccion__container__parrafo p {
+    font-size: 12px;
+  }
+}
+
+#seccion__container__carousel #seccion__container__parrafo .boton__hero button {
+  background-color: black;
+  border-radius: 5px;
+  border-color: black;
+}
+
+#seccion__container__carousel #seccion__container__parrafo .boton__hero button a {
+  text-decoration: none;
+  color: white;
+}
+
+#seccion__container__carousel #seccion__container__parrafo .boton__hero button a:hover {
+  color: #f0d0d5;
+}
+
+/*CARDS*/
+#container__cards {
+  /*Aplicando Placeholder*/
+  background-image: url(/imagenes/backgroundmain2.jpg);
+  padding: 3rem;
+  font-family: 'Poppins';
+}
+
+/*SECCION VIDEO*/
+.video__main {
+  background-color: #f0d0d5;
+  font-family: 'Poppins';
+}
+
+.footer {
+  background-color: #d6abb3;
+  min-width: 100%;
+  font-family: 'Poppins';
+}
+
+.footer__copyright {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.5rem;
+}
+
+.footer__copyright p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.hero__section__nosotros {
+  background-color: #f0d0d5;
+  font-family: 'Poppins';
+  padding-top: 4rem;
+}
+
+.hero__section__clases {
+  background-color: #f0d0d5;
+}
+
+.main {
+  background-color: #f0d0d5;
+  font-family: 'Poppins';
+}
+
+.main__contacto {
+  font-family: 'Poppins';
+}
+/*# sourceMappingURL=styles.css.map */
