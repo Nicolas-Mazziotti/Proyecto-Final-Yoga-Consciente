@@ -11,6 +11,9 @@
   width: 70%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   /* OPERACION Y MIXIN*/
 }
 
@@ -32,51 +35,115 @@
   font-family: 'Poppins';
 }
 
-#seccion__container__carousel #seccion__container__parrafo h1 {
+#seccion__container__carousel #seccion__hero__parrafo h1 {
   font-size: 30px;
 }
 
-#seccion__container__carousel #seccion__container__parrafo h2 {
+#seccion__container__carousel #seccion__hero__parrafo h2 {
   font-size: 20px;
 }
 
-#seccion__container__carousel #seccion__container__parrafo p {
+#seccion__container__carousel #seccion__hero__parrafo p {
   font-size: 15px;
 }
 
-@media screen and (max-width: 813px) {
-  #seccion__container__carousel #seccion__container__parrafo p {
+@media screen and (max-width: 1024px) {
+  #seccion__container__carousel #seccion__hero__parrafo p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #seccion__container__carousel #seccion__hero__parrafo p {
     font-size: 12px;
   }
 }
 
-#seccion__container__carousel #seccion__container__parrafo .boton__hero button {
+#seccion__container__carousel #seccion__hero__parrafo .boton__hero {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#seccion__container__carousel #seccion__hero__parrafo button {
   background-color: black;
   border-radius: 5px;
   border-color: black;
 }
 
-#seccion__container__carousel #seccion__container__parrafo .boton__hero button a {
+#seccion__container__carousel #seccion__hero__parrafo button a {
   text-decoration: none;
   color: white;
 }
 
-#seccion__container__carousel #seccion__container__parrafo .boton__hero button a:hover {
+#seccion__container__carousel #seccion__hero__parrafo button a:hover {
   color: #f0d0d5;
+}
+
+.seccion__parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
 }
 
 /*CARDS*/
 #container__cards {
   /*Aplicando Placeholder*/
-  background-image: url(/imagenes/backgroundmain2.jpg);
+  background-image: url(../imagenes/backgroundmain2.jpg);
   padding: 3rem;
   font-family: 'Poppins';
+}
+
+@media screen and (max-width: 768px) {
+  #container__cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 /*SECCION VIDEO*/
 .video__main {
   background-color: #f0d0d5;
   font-family: 'Poppins';
+}
+
+.video__main .video__parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+}
+
+.video__main .video__parrafo p {
+  text-align: center;
 }
 
 .footer {
@@ -114,5 +181,6 @@
 
 .main__contacto {
   font-family: 'Poppins';
+  background-color: #f0d0d5;
 }
 /*# sourceMappingURL=styles.css.map */

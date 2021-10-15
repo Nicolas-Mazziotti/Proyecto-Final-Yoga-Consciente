@@ -17,6 +17,7 @@
                 font-family:'Poppins';
                 width: 70%;
                 justify-content: space-around;
+                align-items: center;
                 /* OPERACION Y MIXIN*/
                 @include tablet {
                 font-size: $fuenteNav - 5;
@@ -34,7 +35,7 @@
     height: auto;
     background-color:$rosa;
     font-family: 'Poppins';
-        #seccion__container__parrafo{
+        #seccion__hero__parrafo{
             h1{
                 font-size: 30px;
         }
@@ -44,10 +45,17 @@
             p{
                 font-size: 15px ;
                 @include laptop{
+                    font-size: 14px;
+                }
+                @include tablet{
                     font-size: 12px;
                 }
         }
-                .boton__hero button{
+                .boton__hero{
+                    justify-content: center;
+                    align-items: center;
+                }
+                 button{
                     background-color: black;
                     border-radius: 5px;
                     border-color:black;
@@ -61,21 +69,41 @@
                 }
             }
         }
-
+.seccion__parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
 
       
 /*CARDS*/
  #container__cards{
      /*Aplicando Placeholder*/
-     background-image: url(/imagenes/backgroundmain2.jpg);
+     background-image: url(../imagenes/backgroundmain2.jpg);
      padding: 3rem;
      font-family: 'Poppins';
+     @include tablet {
+     justify-content: center;
+     align-items: center;
+    }
  }
 
  /*SECCION VIDEO*/
  .video__main{
      background-color: $rosa;
      font-family: 'Poppins';
+        .video__parrafo{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+            p{
+                text-align: center;
+            }
+        }
  }
 
 .footer{
