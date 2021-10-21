@@ -27,39 +27,43 @@
   text-decoration: underline;
 }
 
-/*CAROUSEL*/
-#seccion__container__carousel {
+body {
+  background-color: #f0d0d5;
+}
+
+/*HERO SECTION*/
+#seccion_hero_container {
   min-width: 100%;
   height: auto;
-  background-color: #f0d0d5;
   font-family: 'Poppins';
 }
 
-#seccion__container__carousel #seccion__hero__parrafo h1 {
+#seccion_hero_container #seccion_hero_parrafo h1 {
   font-size: 30px;
+  font-weight: bold;
 }
 
-#seccion__container__carousel #seccion__hero__parrafo h2 {
+#seccion_hero_container #seccion_hero_parrafo h2 {
   font-size: 20px;
 }
 
-#seccion__container__carousel #seccion__hero__parrafo p {
+#seccion_hero_container #seccion_hero_parrafo p {
   font-size: 15px;
 }
 
 @media screen and (max-width: 1024px) {
-  #seccion__container__carousel #seccion__hero__parrafo p {
+  #seccion_hero_container #seccion_hero_parrafo p {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #seccion__container__carousel #seccion__hero__parrafo p {
+  #seccion_hero_container #seccion_hero_parrafo p {
     font-size: 12px;
   }
 }
 
-#seccion__container__carousel #seccion__hero__parrafo .boton__hero {
+#seccion_hero_container #seccion_hero_parrafo .boton__hero {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -68,18 +72,18 @@
           align-items: center;
 }
 
-#seccion__container__carousel #seccion__hero__parrafo button {
+#seccion_hero_container #seccion_hero_parrafo button {
   background-color: black;
   border-radius: 5px;
   border-color: black;
 }
 
-#seccion__container__carousel #seccion__hero__parrafo button a {
+#seccion_hero_container #seccion_hero_parrafo button a {
   text-decoration: none;
   color: white;
 }
 
-#seccion__container__carousel #seccion__hero__parrafo button a:hover {
+#seccion_hero_container #seccion_hero_parrafo button a:hover {
   color: #f0d0d5;
 }
 
@@ -98,6 +102,47 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0.5rem;
+}
+
+.hero_section {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.hero_section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenido_video {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-blend-mode: soft-light;
+  z-index: 1;
+  padding-bottom: 1rem;
+}
+
+.contenido_video h2 {
+  color: white;
 }
 
 /*CARDS*/
@@ -121,7 +166,6 @@
 
 /*SECCION VIDEO*/
 .video__main {
-  background-color: #f0d0d5;
   font-family: 'Poppins';
 }
 
@@ -182,5 +226,12 @@
 .main__contacto {
   font-family: 'Poppins';
   background-color: #f0d0d5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=styles.css.map */
