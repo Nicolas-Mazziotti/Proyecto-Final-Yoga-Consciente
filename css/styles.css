@@ -31,7 +31,7 @@ body {
   background-color: #f0d0d5;
 }
 
-/*HERO SECTION*/
+/*PRIMERA SECCION HERO SECTION*/
 #seccion_hero_container {
   min-width: 100%;
   height: auto;
@@ -145,7 +145,7 @@ body {
   color: white;
 }
 
-/*CARDS*/
+/*SEGUNDA SECCION CARDS*/
 #container__cards {
   /*Aplicando Placeholder*/
   background-image: url(../imagenes/backgroundmain2.jpg);
@@ -164,7 +164,7 @@ body {
   }
 }
 
-/*SECCION VIDEO*/
+/*TERCERA SECCION VIDEO*/
 .video__main {
   font-family: 'Poppins';
 }
@@ -190,6 +190,31 @@ body {
   text-align: center;
 }
 
+/*CUARTA SECCION*/
+.contenido_padre {
+  background-color: #e5989b;
+}
+
+.contenido_padre .contenido {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  line-height: 2;
+}
+
+.contenido_padre .contenido p {
+  padding-top: 1.5rem;
+}
+
+.contenido_padre .contenido img {
+  padding-top: 2rem;
+}
+
+/*FOOTER*/
 .footer {
   background-color: #d6abb3;
   min-width: 100%;
