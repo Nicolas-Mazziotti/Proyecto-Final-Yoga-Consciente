@@ -284,6 +284,28 @@ body {
   font-family: 'Poppins';
 }
 
+body .card-img-overlay h5 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  body .card-img-overlay h5 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  body .card-img-overlay p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  body .card-img-overlay button {
+    font-size: 10px;
+  }
+}
+
 .main__contacto {
   font-family: 'Poppins';
   background-color: #f0d0d5;

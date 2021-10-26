@@ -14,9 +14,14 @@
 @mixin movil {
     @media screen and (max-width: 425px){
         @content
-    }
+    };
 }
 
+ @mixin personalizado {
+     @media screen and (max-width: 991px){
+         @content
+     };
+}
  
         
     

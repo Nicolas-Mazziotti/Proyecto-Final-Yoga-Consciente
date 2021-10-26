@@ -4,6 +4,25 @@
 body{
     background-color:$rosa;
     font-family: 'Poppins';
+        .card-img-overlay {
+            h5{
+                font-size: 30px;
+                @include personalizado{
+                    font-size: 15px;
+                }
+            }
+            p{
+                @include personalizado{
+                    font-size:10px ;
+                }
+            }
+            button{
+                @include personalizado{
+                    font-size: 10px;
+                    
+                }
+            }
+        }
 }
 
 
