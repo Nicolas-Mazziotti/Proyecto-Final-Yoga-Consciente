@@ -6,21 +6,27 @@
 
 body{
     font-family: 'Poppins';
-
+    .banner_nosotros{
         h1{
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: center;
             font-size: 70px;
+            font-weight: bold;
             padding: 2rem;
+            background-image: url(../imagenes/yoga_background_nosotros.jpg);
+            color: black;
+    
+
             @include movil{
                 font-size: 45px;
+                background-repeat: no-repeat;
+                background-size: 100%;
             }
         }
-            
     }
-
+}
 
 .container-fluid .nosotros_texto{
     display: flex;
@@ -30,10 +36,6 @@ body{
     line-height: 2;
 }
 
-.nosotros_imagen img{
-    @include movil{
 
-    }
-}
 
 

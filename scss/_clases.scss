@@ -1,11 +1,9 @@
 @import "./variables";
 @import "./mixins";
 
-
-.hero__section__clases{
-    background-color: $rosa;
-}
-.main{
+body{
     background-color:$rosa;
     font-family: 'Poppins';
 }
+
+

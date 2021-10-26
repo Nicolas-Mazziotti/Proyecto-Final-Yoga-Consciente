@@ -14,7 +14,7 @@
 <!--Nav Bar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
     <div class="container-fluid menu">
-      <a class="navbar-brand" href="#"><img src="../imagenes/logoYoga.jpeg" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="../imagenes/meditacion_logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,19 +37,121 @@
       </div>
     </div>
   </nav>
-<main class="main">
-  <!-- MAIN CARDS-->
+
+<!-- MAIN CARDS-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 pt-5">
+      <div class="card bg-dark text-white">
+        <img src="../imagenes/yogaClases.jpg" class="card-img w-100 opacity-25" alt="...">
+        <div class="card-img-overlay text-center">
+          <h5 class="card-title">Yoga Restaurativo</h5>
+          <p class="card-text">Es un tipo de yoga terapéutico cuya finalidad es el descanso del sistema nervioso. Se realiza mediante asanas (posturas) suaves y pasivas, apacibles y relajadas.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Ver horarios y fechas
+          </button>
+          <!--MODAL-->
+          <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">HOLA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 pt-5">
+      <div class="card bg-dark text-white">
+        <img src="../imagenes/yogaclases2.jpg" class="card-img w-100 opacity-25" alt="...">
+        <div class="card-img-overlay text-center">
+          <h5 class="card-title">Yoga Iyengar</h5>
+          <p class="card-text">Se centra, principalmente, en la alineación del cuerpo. Es decir, independientemente de la postura que estemos haciendo, el Iyengar Yoga se centrará en que mantengamos la alineación de la cabeza, la columna vertebral, la cadera y los pies.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Ver horarios y fechas
+            </button>
+            <!--MODAL-->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12 pt-5">
+      <div class="card bg-dark text-white">
+        <img src="../imagenes/yogaclases2.jpg" class="card-img w-100 opacity-25" alt="...">
+        <div class="card-img-overlay text-center">
+          <h5 class="card-title">Yoga Vinyasa</h5>
+          <p class="card-text">El Vinyasa Yoga propugna el movimiento. Quienes lo eligen buscan precisamente activar el cuerpo mediante la unión de movimiento y respiración.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Ver horarios y fechas
+            </button>
+            <!--MODAL-->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+  
+
+  <!--
   <div class="container hero__section__clases pt-5">
     <div class="row">
-      <div class="col-md-4">
-        <div class="card m-1" style="width: 15rem;">
+      <div class="col-lg-6">
+        <div class="card m-1" style="width: 20rem;">
           <img src="../imagenes/yogaClases.jpg" class="card-img-top opacity-75 img-fluid" alt="Mujer haciendo pose de yoga cabeza en la arena pies arriba en la playa frente al mar">
           <div class="card-body">
             <p class="card-text fs-5">Yoga Restaurativo</p>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-6">
+        <h2>Lorem ipsum dolor sit.</h2>
+      </div>
+      <div class="col-md-12">
         <div class="card m-1" style="width: 15rem;">
           <img src="../imagenes/yogaclases2.jpg" class=" card-img-top opacity-75 img-fluid" alt="hombre haciendo pose de yoga pie derecho estirado hacie adelante junto con los brazos">
           <div class="card-body">
@@ -57,7 +159,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-12">
         <div class="card m-1" style="width: 15rem;">
           <img src="../imagenes/yogaclases3.jpg" class="card-img-top opacity-75 img-fluid" alt="gente haciendo pose de yoga arrodillados con manos en la espalda y cabeza mirando al piso">
           <div class="card-body">
@@ -70,9 +172,9 @@
     </div>
 
   </div>
-
+-->
   <!--MAIN TABLA-->
-
+<!--
 <div class="container">
   <div class="row p-5 ">
     <table class="table table-success">
@@ -103,7 +205,7 @@
     </table>
   </div>
 </div>
-
+-->
 </main>
 
   <!--footer-->

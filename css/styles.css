@@ -237,7 +237,7 @@ body {
   font-family: 'Poppins';
 }
 
-body h1 {
+body .banner_nosotros h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,12 +250,17 @@ body h1 {
           justify-content: center;
   text-align: center;
   font-size: 70px;
+  font-weight: bold;
   padding: 2rem;
+  background-image: url(../imagenes/yoga_background_nosotros.jpg);
+  color: black;
 }
 
 @media screen and (max-width: 425px) {
-  body h1 {
+  body .banner_nosotros h1 {
     font-size: 45px;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }
 
@@ -274,11 +279,7 @@ body h1 {
   line-height: 2;
 }
 
-.hero__section__clases {
-  background-color: #f0d0d5;
-}
-
-.main {
+body {
   background-color: #f0d0d5;
   font-family: 'Poppins';
 }
