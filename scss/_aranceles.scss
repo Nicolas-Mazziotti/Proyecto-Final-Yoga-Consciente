@@ -1,0 +1,48 @@
+@import "./variables";
+@import "./mixins";
+
+.aranceles_body{
+background-color: $rosa;     
+    }
+
+
+/*
+.aranceles_contenedor{
+    background-image: url(/imagenes/background-aranceles.jpg);
+    opacity: 0.5;
+    padding: 5rem;
+
+    h1{
+        font-size: 70px;
+    }
+}
+*/
+.aranceles_contenedor {
+    font-weight: bold;
+    display: block;
+    position: relative;
+        h1{
+            font-size: 70px;
+            @include movil{
+                font-size: 40px;
+            }
+        }
+  }
+  
+  .aranceles_contenedor::after {
+    content: "";
+    background-image: url(/imagenes/background-aranceles.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+
+
+
+
+

@@ -72,21 +72,6 @@ body {
           align-items: center;
 }
 
-#seccion_hero_container #seccion_hero_parrafo button {
-  background-color: black;
-  border-radius: 5px;
-  border-color: black;
-}
-
-#seccion_hero_container #seccion_hero_parrafo button a {
-  text-decoration: none;
-  color: white;
-}
-
-#seccion_hero_container #seccion_hero_parrafo button a:hover {
-  color: #f0d0d5;
-}
-
 .seccion__parrafo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,6 +294,49 @@ body .card-img-overlay h5 {
 .main__contacto {
   font-family: 'Poppins';
   background-color: #f0d0d5;
+}
+
+.aranceles_body {
+  background-color: #f0d0d5;
+}
+
+/*
+.aranceles_contenedor{
+    background-image: url(/imagenes/background-aranceles.jpg);
+    opacity: 0.5;
+    padding: 5rem;
+
+    h1{
+        font-size: 70px;
+    }
+}
+*/
+.aranceles_contenedor {
+  font-weight: bold;
+  display: block;
+  position: relative;
+}
+
+.aranceles_contenedor h1 {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 425px) {
+  .aranceles_contenedor h1 {
+    font-size: 40px;
+  }
+}
+
+.aranceles_contenedor::after {
+  content: "";
+  background-image: url(/imagenes/background-aranceles.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 * {

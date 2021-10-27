@@ -59,20 +59,9 @@ body{
                     justify-content: center;
                     align-items: center;
                 }
-                 button{
-                    background-color: black;
-                    border-radius: 5px;
-                    border-color:black;
-                        a{
-                            text-decoration: none;
-                            color: white;
-                        }
-                        a:hover{
-                            color: $rosa;
-                    }
                 }
-            }
-        }
+                }
+        
 .seccion__parrafo {
     display: flex;
     flex-direction: column;
