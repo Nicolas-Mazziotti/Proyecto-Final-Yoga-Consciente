@@ -300,17 +300,6 @@ body .card-img-overlay h5 {
   background-color: #f0d0d5;
 }
 
-/*
-.aranceles_contenedor{
-    background-image: url(/imagenes/background-aranceles.jpg);
-    opacity: 0.5;
-    padding: 5rem;
-
-    h1{
-        font-size: 70px;
-    }
-}
-*/
 .aranceles_contenedor {
   font-weight: bold;
   display: block;
@@ -329,7 +318,7 @@ body .card-img-overlay h5 {
 
 .aranceles_contenedor::after {
   content: "";
-  background-image: url(/imagenes/background-aranceles.jpg);
+  background-image: url(../imagenes/background-aranceles.jpg);
   opacity: 0.5;
   top: 0;
   left: 0;

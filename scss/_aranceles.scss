@@ -4,19 +4,6 @@
 .aranceles_body{
 background-color: $rosa;     
     }
-
-
-/*
-.aranceles_contenedor{
-    background-image: url(/imagenes/background-aranceles.jpg);
-    opacity: 0.5;
-    padding: 5rem;
-
-    h1{
-        font-size: 70px;
-    }
-}
-*/
 .aranceles_contenedor {
     font-weight: bold;
     display: block;
@@ -31,7 +18,7 @@ background-color: $rosa;
   
   .aranceles_contenedor::after {
     content: "";
-    background-image: url(/imagenes/background-aranceles.jpg);
+    background-image: url(../imagenes/background-aranceles.jpg);
     opacity: 0.5;
     top: 0;
     left: 0;
