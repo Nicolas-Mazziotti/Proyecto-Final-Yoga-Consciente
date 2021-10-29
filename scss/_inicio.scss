@@ -68,21 +68,17 @@ body{
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
+        h1{
+            padding: 0.3rem;
+        }
+
 }
-
-.hero_section{
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-
-    video{
-        position: absolute;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-    }
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
-
 .contenido_video{
     position: relative;
     top: 0;
@@ -126,6 +122,17 @@ body{
             }
         }
  }
+
+ /*TERCERA SECCION*/
+
+.video__parrafo{
+    line-height: 2;
+    h2{
+        padding: 1rem;
+        font-weight: bold;
+    }
+}
+
 /*CUARTA SECCION*/
 
 .contenido_padre{

@@ -10,9 +10,13 @@ background-color: $rosa;
     position: relative;
         h1{
             font-size: 70px;
+            padding-top: 2rem;
             @include movil{
                 font-size: 40px;
             }
+        }
+        h3{
+            font-size: 18px;
         }
   }
   
@@ -26,6 +30,19 @@ background-color: $rosa;
     right: 0;
     position: absolute;
     z-index: -1;  
+    @include laptop {
+        background-size: cover;
+        background-position: center center ;
+    }
+    @include tablet {
+        background-size: cover;
+        background-position:center center ;
+    }
+    @include movil {
+        background-size: cover;
+        background-position: center center;
+    }
+    
   }
 
 
